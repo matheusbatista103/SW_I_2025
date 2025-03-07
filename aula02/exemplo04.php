@@ -1,8 +1,8 @@
 <?php
-    define('matheus',1.5);
-    $a = 1.5;
+    define('leonardo',1.5);
+    $xyz = 1.5;
 
-    echo "Valor: ".matheus;
+    echo "o valor é: ".leonardo;
     echo "<br>";
-    echo "Valor: $a";
+    echo "o valor é: $xyz";
 ?>

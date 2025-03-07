@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Oi 2F, sou o Matheus</p>
+    <p>Segunda aula de IW 2025</p>
 
     <?php
-        $nome = "Matheus";
-        echo "<p>Oi 2F, sou o Matheus";
-        echo "<p>Oi 2F, sou o $nome</p>";
-        echo "<p>Oi 2F, sou o ".$nome." </p>";
+        $nome= "Gustavo";
+        echo "<p>Oi 2F, sou p Leonardo</p>";
+        echo "<p>Oi 2F, meu nome é $nome</p>";
+        echo "<p>Oi 2F, meu nome é ".$nome."</p>";
     ?>
 </body>
 </html>

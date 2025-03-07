@@ -1,13 +1,13 @@
 <?php
-    $nome = "matheus";
-    $idade = "15";
-    $funcao = "estudante";
+    $nome = "Leonardo";
+    $idade = 16;
+    $funcao = "Aluno";
 
     $frase = "Dados pessoais: ";
     $frase .= $nome;
-    $frase .= " - ";
+    $frase .= " _ ";
     $frase .= $idade;
-    $frase .= " - ";
+    $frase .= " _ ";
     $frase .= $funcao;
 
     echo $frase;

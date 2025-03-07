@@ -1,9 +1,7 @@
 <?php
-    $a = 36;
-    $b = "amendoim 11";
+    $a = 4;
+    $b = "101 Dalmatas";
     $s = $a + $b;
 
     echo $s;
-
-
 ?>
