@@ -1,0 +1,90 @@
+* {
+    color: #003366 !important;
+}
+
+body {
+    background-color: #ffffff !important; /* Fundo branco */
+}
+
+/* Header e Footer brancos */
+#mainNav, footer {
+    background-color: #ffffff !important;
+    color: #003366 !important;
+    border-bottom: 2px solid #99c2ff !important;
+}
+
+/* bg-primary branco */
+.bg-primary {
+    background-color: #ffffff !important;
+}
+
+/* Demais elementos em tons de azul */
+.container,
+.card,
+.section,
+form {
+    background-color: #f0f8ff !important;
+    border-color: #99c2ff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #002244 !important;
+}
+
+p, span, li, label {
+    color: #003366 !important;
+}
+
+button, .btn {
+    background-color: #0066cc !important;
+    color: #ffffff !important;
+}
+
+button:hover, .btn:hover {
+    background-color: #005bb5 !important;
+}
+
+a {
+    color: #0047ab !important;
+}
+
+a:hover {
+    color: #003399 !important;
+}
+
+input, textarea, select {
+    background-color: #ffffff !important;
+    color: #003366 !important;
+    border-color: #99c2ff !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #0066cc !important;
+}
+
+table {
+    background-color: #f0f8ff !important;
+}
+
+th {
+    background-color: #0066cc !important;
+    color: #ffffff !important;
+}
+
+th, td {
+    border-color: #99c2ff !important;
+    color: #003366 !important;
+}
+
+/* Classes utilitárias */
+.text-blue {
+    color: #003366 !important;
+}
+
+.bg-light-blue {
+    background-color: #f0f8ff !important;
+}
+
+.border-blue {
+    border-color: #99c2ff !important;
+}
