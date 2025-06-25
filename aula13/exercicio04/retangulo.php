@@ -1,6 +1,12 @@
 <?php
-require_once "Retangulo.php";
+include("retangulo.class.php");
 
-$ret = new Retangulo(5, 3);
-$ret->exibirDados();
+$ret = new Retangulo();
+$ret->setLargura(5);
+$ret->setAltura(10);
+
+echo "Largura: " . $ret->getLargura() . "<br>";
+echo "Altura: " . $ret->getAltura() . "<br>";
+echo "Área: " . $ret->calcularArea() . "<br>";
+echo "Perímetro: " . $ret->calcularPerimetro();
 ?>
